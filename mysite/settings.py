@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'website.apps.WebsiteConfig'
+    'website.apps.WebsiteConfig',
+    'blog'
 ]
 
 MIDDLEWARE = [
@@ -122,9 +123,9 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 
 import os
-from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+
+
 
 STATIC_URL = '/static/'
 
